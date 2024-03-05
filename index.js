@@ -6,3 +6,6 @@ let secuenciaNumerica = Array.from({ length: 5 }, (_, index) => index + 1);
 let arrayRepetido = Array(5).fill('a');
 let cadena = 'Hola, cómo estás';
 let arrayDesdeCadena = cadena.split(' ');
+let array1 = [1, 2, 3];
+let array2 = [4, 5, 6];
+let arrayCombinado = [...array1, ...array2];
