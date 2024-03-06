@@ -32,3 +32,6 @@ console.log(array); // Output: [1, 2, 3, 4, 5]
 // 14. Agregar elementos al principio del array usando unshift():
 array.unshift(0);
 console.log(array); // Output: [0, 1, 2, 3, 4, 5]
+// 15. Eliminar el primer elemento del array usando shift():
+array.shift();
+console.log(array); // Output: [1, 2, 3, 4, 5]
