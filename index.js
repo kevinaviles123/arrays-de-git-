@@ -41,3 +41,6 @@ console.log(sliceArray); // Output: [2, 3]
 // 17. Convertir un array en un string usando join():
 const stringFromArray = array.join("-");
 console.log(stringFromArray); // Output: "1-2-3-4-5"
+// 18. Obtener una subsección del array desde un índice negativo usando slice():
+const negativeSliceArray = array.slice(-3);
+console.log(negativeSliceArray); // Output: [3, 4, 5]
