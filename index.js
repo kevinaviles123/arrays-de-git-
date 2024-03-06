@@ -26,3 +26,6 @@ console.log(array.length); // Output: 5
 // 12. Agregar elementos al final del array usando push():
 array.push(6);
 console.log(array); // Output: [1, 2, 3, 4, 5, 6]
+// 13. Eliminar el último elemento del array usando pop():
+array.pop();
+console.log(array); // Output: [1, 2, 3, 4, 5]
