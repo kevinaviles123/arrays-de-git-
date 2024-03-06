@@ -47,3 +47,7 @@ console.log(negativeSliceArray); // Output: [3, 4, 5]
 // 19. Eliminar una porción del array sin modificar el original usando slice():
 const newArray = array.slice(0, 2);
 console.log(newArray); // Output: [1, 2]
+// 20. Agregar múltiples elementos al principio del array usando unshift() con spread operator (...):
+const newElements = [0, -1];
+array.unshift(...newElements);
+console.log(array); // Output: [-1, 0, 1, 2, 3, 4, 5]
